@@ -18,8 +18,8 @@ object Main {
         val start = System.currentTimeMillis()
         val n = 2000
         for (i in 1..n) {
-            println("f(" + i + ") = " + Factorial().doSumOfDigitsOfFactorial(i))
+            println("f($i) = " + Factorial().doSumOfDigitsOfFactorial(i))
         }
-        println("Finished in " + (System.currentTimeMillis() - start))
+        println("Finished in ${(System.currentTimeMillis() - start)} ms")
     }
 }
